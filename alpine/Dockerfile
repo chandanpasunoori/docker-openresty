@@ -38,6 +38,8 @@ ARG RESTY_CONFIG_OPTIONS="\
     --with-http_sub_module \
     --with-http_v2_module \
     --with-http_xslt_module=dynamic \
+    --with-http_njs_module=dynamic \
+    --with-http_perl_module=dynamic \
     --with-ipv6 \
     --with-mail \
     --with-mail_ssl_module \
